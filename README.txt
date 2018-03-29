@@ -13,10 +13,7 @@ Time spent: **5.2** hours spent in total
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough:
   - [ ] Steps to recreate:
-  1. Find a youtube video and copy the url up to the v=
-  2. After the v=, insert a javascript message, i.e. <script>alert("hi")</script>
-  3. Copy this new URL and press into insert/edit link button
-  4. Press Add Link
+
     - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
@@ -26,22 +23,19 @@ Time spent: **5.2** hours spent in total
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough:
   - [ ] Steps to recreate:
-  1. Create javascript code something like this: <a href="[caption code=">]</a><a title=" onmouseover=alert('hi')  ">link</a>
+  1. Create javascript code something like this: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
   2. Log in as someone who can make posts
   3. Paste the javascript into a post
   4. Submit the post
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: Unauthenticated Stored Cross-Site Scripting (XSS)
+  - [ ] Summary:
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.2.1
+    - Fixed in version:
   - [ ] GIF Walkthrough:
   - [ ] Steps to recreate:
-    1. Create a comment as a user
-    2. Paste a piece of javascript code that you want to use followed by 64kb of text.
-    3. Post the comment, when an admin sees, the comment it will execute the script
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
