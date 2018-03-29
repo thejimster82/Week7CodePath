@@ -11,7 +11,7 @@ Time spent: **5.2** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough:
+  - [ ] GIF Walkthrough: <img src="XSS-youtube.gif" width="800">
   - [ ] Steps to recreate:
   1. Find a youtube video and copy the url up to the v=
   2. After the v=, insert a javascript message, i.e. <script>alert("hi")</script>
@@ -24,7 +24,7 @@ Time spent: **5.2** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough:
+  - [ ] GIF Walkthrough: <img src="XSS-post.gif" width="800">
   - [ ] Steps to recreate:
   1. Create javascript code something like this: <a href="[caption code=">]</a><a title=" onmouseover=alert('hi')  ">link</a>
   2. Log in as someone who can make posts
