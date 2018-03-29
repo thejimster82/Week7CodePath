@@ -37,7 +37,7 @@ Time spent: **5.2** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough:
+  - [ ] GIF Walkthrough: AAAAAAAAAAAAAAAAAAAAAAAA
   - [ ] Steps to recreate:
     1. Create a comment as a user
     2. Paste a piece of javascript code that you want to use followed by 64kb of text.
