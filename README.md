@@ -17,8 +17,8 @@ Time spent: **5.2** hours spent in total
   2. After the v=, insert a javascript message, i.e. <script>alert("hi")</script>
   3. Copy this new URL and press into insert/edit link button
   4. Press Add Link
-    - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [ ] Affected source code: wp-includes/media.php
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: Authenticated Stored Cross-Site Scripting (XSS)
     - Vulnerability types: XSS
@@ -31,7 +31,7 @@ Time spent: **5.2** hours spent in total
   3. Paste the javascript into a post
   4. Submit the post
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=33316%40branches%2F4.2&new=33316%40branches%2F4.2&sfp_email=&sfph_mail=)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: Unauthenticated Stored Cross-Site Scripting (XSS)
     - Vulnerability types: XSS
@@ -43,7 +43,7 @@ Time spent: **5.2** hours spent in total
     2. Paste a piece of javascript code that you want to use followed by 64kb of text.
     3. Post the comment, when an admin sees, the comment it will execute the script
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.1/src/wp-includes/kses.php)
 
 ## Assets
 
